@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  padding: 20px;
 }
 
 .App-logo {
@@ -35,4 +36,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+.reg-main {
+  border: 1px solid rgb(233, 136, 136);
+  border-radius: 10px;
+  background-color: rgb(232, 229, 233);
+  width: 50%;
+  display: block;
+  margin: auto;
+  padding: 25px;
+}
+button {
+  background-color: aqua;
+  border: none;
+  padding: 10px 15px 10px;
+  border-radius: 8px;
+  transition-property: width;
+  transition-duration: 5s;
+  transition-delay: 2s;
+}
+button:hover {
+  color: red;
+  width: 80px;
+}
+
+table,
+th,
+td,
+tr {
+  border: 1px solid black;
 }
